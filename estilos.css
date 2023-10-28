@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+#ultimo + div{
+    visibility: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-1 { 
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #424242;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn-flotante {
+	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #343132; /* Color de fondo */
+	padding: 18px 30px; /* Relleno del boton */
+	position: fixed;
+	bottom: 10px;
+    left: 10px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.btn-1:hover{
+    background-color: #50504f;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,0)),
+        url(images/fondo1.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    margin-top: 50px;
+   
+}
+.logo{
+    color:#FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+    width: 200px;
+    height: 200px;
+}
+.navbar ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.menu .navbar ul li{
+    position: relative;
+display: inline-block;
+
+}
+.menu .navbar ul li a{
+    font-size: 45px;
+    padding: 20px;
+    color: #dfd9d7;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .menu .navbar ul li a:hover{
+    color: #807e7c;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    text-align: left;
+    margin-top: 300px;
+    display: block;
+    margin-left: 100px;
+}
+.header-content p{
+    color:#FFFDFC;
+    text-transform: uppercase;
+}
+#titulo-header-content{
+    font-size: 53px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 20px;
+
+}
+.subtitulo{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    font-size: 200px;
+    line-height: 190px;
+}
+.subtitulodos{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 30px;
+    font-size: 200px;
+    line-height: 220px;
+}
+.contenedor-cuadritos{
+    display:flex;
+    margin-bottom: 150px;
+}
+
+.cuadrito-negro{
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 60%;
+    padding: 0px 0px 0px 15px;
+    margin: 5px 5px 10px 0px;
+}
+.dos{
+    width: 30%;
+    margin-left: 40px;
+}
+.dos img{
+    margin-top: 10px;
+}
+#img-facebook{
+    width: 100px;
+}
+#img-instagram{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cuadrito-negro h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 10;
+    text-transform: uppercase;
+}
+.cuadrito-negro h2{
+    color: white;
+    font-size: 50px;
+}
+
+/*Nosotros*/
+.contenedor{
+    background-image: url(images/fondo.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.contenedor-cabecera{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contenedor-cabecera img{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.contenedor-cabecera h1{
+    font-family: 'Anton', sans-serif;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 70px;
+    margin-left: 120px;
+}
+
+.contenedor-cabecera h2{
+    margin-top: 59px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 50px;
+    letter-spacing: 4px;
+}
+.linea-negra{
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    margin-top: 30px;
+}
+.linea-negrados{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(26, 25, 25);
+}
+.nosotros{
+    display: flex;
+}
+.nosotros p{
+    font-size: 40px;
+    padding: 40px;
+    margin: 40px;
+    text-align: justify;
+}
+.nosotros-texto{
+    width: 60%;
+    margin-left: 100px;
+}
+.nosotros img{
+    width: 600px;
+    padding: 60px;
+
+}
+
+/*Servicios*/
+.servicios{
+    display: flex;
+}
+.servicios-texto{
+    width: 50%;
+}
+
+.servicios-texto h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#div-llave-inglesa{
+  text-align: center;
+}
+
+#div-llave-inglesa img{
+    padding: 0;
+    width: 150px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+table {
+    width: 80%;
+    margin-left: 40px;
+}
+tbody tr td{
+    font-size: 28px;
+}
+.negrita{
+    font-weight: 700;
+}
+.content-table{
+    margin: 0 auto;
+}
+
+/*productos*/
+.productos{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.producto{
+    width: 50%;
+    text-align: center;
+}
+.producto img{
+    width: 100%;
+}
+.producto p{
+    font-size: 40px;
+}
+
+/*Footer*/
+.footer{
+   background-image: url(images/footer.jpg);
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 50px;
+   display: flex;
+}
+
+.footer-content{
+    flex-direction: column;
+    width: 50%;
+}
+.footer-content img{
+ padding-left: 40px;
+}
+.contacto p{
+    color: white;
+    font-size: 30px;
+}
+
+@media(max-width:414px){
+    .container-principal{
+        width: 415px;
+    } 
+    #rodamos{
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 3px;
+        font-size: 70px;
+        line-height: 60px;
+    }
+    #contigo{
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 10px;
+        font-size: 70px;
+        line-height: 80px;
+    }
+    #img-facebook{
+        width: 90px;
+    }
+    #img-instagram{
+        width: 90px;
+    }
+}
+
+@media(max-width:1280px){
+    .menu{
+        padding: 30px;
+    }
+
+    .logo{
+        display: none;
+    }
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.9);
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .contenedor-cuadritos{
+        display:inline-block;
+        margin-bottom: 150px;
+    }
+
+    .dos{
+        width: 60%;
+        margin-left: 0px;
+    }
+
+    #titulo-header-content{
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 10px;
+    
+    }
+    .subtitulo{
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 10px;
+        font-size: 100px;
+        line-height: 90px;
+    }
+    .subtitulodos{
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 20px;
+        font-size: 100px;
+        line-height: 110px;
+    }
+    .header-content{
+        text-align: left;
+        margin-top: 150px;
+        display: block;
+        margin-left: 30px;
+    }
+
+    /*Nosotros*/
+    .nosotros p{
+        font-size: 25px;
+        padding: 10px;
+        margin: 40px;
+        text-align: justify;
+    }
+    .nosotros-texto{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .nosotros img{
+        display: none;
+    }
+
+    .contenedor-cabecera{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contenedor-cabecera img{
+        width: 70px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .contenedor-cabecera h1{
+        font-family: 'Anton', sans-serif;
+        margin-top: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    
+    .contenedor-cabecera h2{
+        margin-top: 47px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-right: 10px;
+        letter-spacing: 0px;
+    }
+    /*servicios*/
+    .servicios{
+        display: block;
+    }
+    .servicios-texto{
+        width: 80%;
+        margin:0 auto;
+    }
+    #div-llave-inglesa{
+        display: none;
+      }
+      .servicios-texto h1{
+        font-size: 25px;
+        text-align: left;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    tbody tr td{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    /*Productos*/
+    .productos{
+        display: flex;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .producto{
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .producto p{
+        font-size: 30px;
+    }
+
+    .producto img{
+        width: 100%;
+        text-align: center;
+    }
+
+    /*Footer*/
+.footer{
+    background-image: url(images/footer.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    display: block;
+ }
+ 
+ .footer-content{
+     flex-direction: column;
+     width: 100%;
+     text-align: center;
+ }
+ .footer-content img{
+  padding-left: 40px;
+    margin-bottom: 40px;
+ }
+ .contacto p{
+     color: white;
+     font-size: 15px;
+     margin-left: 40px;
+     text-align: center;
+ }
+}
